@@ -46,7 +46,9 @@ console.log( "Bienvenidos");
     console.log("Secco 3L $950");  
 
     bebida = prompt("Para elejir la bebida que quiere comprar escriba el nombre de la misma");
+    bebida=bebida.toLowerCase();
     while(bebida == "pepsi" || bebida == "mirinda" || bebida == "seven" || bebida == "sevenfree" || bebida == "cocacola" || bebida == "fanta" || bebida == "sprite" || bebida == "secco" && bebida !=0 ){
+        
         
         cantidad = parseInt(prompt("Ingrese la cancidad que desea comprar"));
 
