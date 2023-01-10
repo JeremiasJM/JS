@@ -1,53 +1,99 @@
-let total=0;
-let cantidad=0;
-let total_pagar=0;
-const lista_productos=[ 
-    { Bebidas:"pepsi" , Precio: 1950},
-    { Bebidas:"mirinda", Precio: 2000},
-    { Bebidas:"seven" , Precio: 2200},
-    { Bebidas:"coca cola", Precio: 2300},
-    { Bebidas:"fanta" , Precio: 2350},
-    { Bebidas:"sprite", Precio: 2400},
-    { Bebidas:"secco" , Precio: 2550},
-    { Bebidas:"torasso", Precio: 2600},
+let arreglo_producto = [];
 
-]
-
-console.log( "Bienvenidos");
-
-let inicio= parseInt(prompt("Presione el numero 1 para iniciar su compra y ver el listado de productos"));
-
-
-while(inicio==1){ 
-
-    console.log(lista_productos);
-
-function buscar_producto(lista_producto){
-    return lista_producto.Bebidas == compra_usuario;
-}
-
-let compra_usuario = prompt("Ingrese el nombre del producto que desea comprar");
-compra_usuario=compra_usuario.toLowerCase();
-
-let resultado_find = lista_productos.find(buscar_producto);
-
-if(resultado_find != undefined){
-   
-    cantidad = parseInt(prompt("Elija la cantidad que desea comprar"));
-    precios=lista_productos.Precio;
-
-    total=resultado_find.Precio*cantidad;
+function agregar_a_carrito(e){
     
-    total_pagar=total_pagar+total;
-  
-}
-else{
-    console.log("No tenes el producto que desea comprar")   
+    let hijo = e.target;
+    let padre = hijo.parentNode;
+    let abuelo = padre.parentNode;
+
+    let nombre_producto = padre.querySelector("h5").textContent;
+    let precio_producto = padre.querySelector("span").textContent;
+    let img_producto = abuelo.querySelector("img").src;
+    let cantidad_producto = padre.querySelector("input").value;    
+    let talla_producto = padre.querySelector ("option").textContent;
+ 
+    let producto = {
+        nombre: nombre_producto,
+        precio: precio_producto,
+        img : img_producto,
+        cantidad: cantidad_producto,
+        talla: talla_producto,
+    };
+
+    /* arreglo_producto.push(producto);
+    
+    let arreglo_JSON = JSON.stringify(arreglo_producto);
+
+    localStorage.setItem("arreglo_producto", arreglo_JSON); 
+    
+    let recuperando_arreglo = localStorage.getItem("arreglo_producto");
+    console.log(recuperando_arreglo);
+
+    recuperando_arreglo = JSON.parse(recuperando_arreglo);
+    console.log(recuperando_arreglo); */
+
      
+    mostrar_carrito(producto);  
+ }
+
+/* function mostrar_carrito(){
+    let recuperando_arreglo = localStorage.getItem("arreglo_producto");
+
+    recuperando_arreglo = JSON.parse(recuperando_arreglo);
+
+
+    let fila = document.createElement("tr");
+    fila.innerHTML = `<td><img class=" w-25"  src="${recuperando_arreglo.img}"></td>
+                      <td>${recuperando_arreglo.nombre}</td>
+                      <td>${recuperando_arreglo.precio}</td>
+                      <td>${recuperando_arreglo.cantidad}</td>
+                      <td>${recuperando_arreglo.talla}</td>                      
+                      <td> <button type="button" class="btn btn-danger btn_borrar">Borrar</button></td> `
+
+     let tabla = document.getElementById("tbody");
+     tabla.append(fila);
+
+     let btn_borrar = document.querySelectorAll(".btn_borrar");
+
+     for(let boton of btn_borrar){
+        boton.addEventListener("click", borrar_producto);
+         }
+
+}
+function borrar_producto(e){
+    let abuelo=e.target.parentNode.parentNode;
+    abuelo.remove();
+} */
+function mostrar_carrito(producto){
+
+    let fila = document.createElement("tr");
+    fila.innerHTML =`<td><img class=" w-25"  src="${producto.img}"></td>
+                     <td>${producto.nombre}</td>
+                     <td>${producto.precio}</td>
+                     <td>${producto.cantidad}</td>
+                     <td>${producto.talla}</td>
+                     <td> <button type="button" class="btn btn-danger btn_borrar">Borrar</button></td> `;
+
+     
+
+     let tabla= document.getElementById("tbody");
+     tabla.append(fila);
+
+     let btn_borrar = document.querySelectorAll(".btn_borrar");
+
+     for(let boton of btn_borrar){
+        boton.addEventListener("click", borrar_producto);
+     }
+
+}
+function borrar_producto(e){
+    let abuelo=e.target.parentNode.parentNode;
+    abuelo.remove();
 }
 
 
-inicio=parseInt(prompt("Si desea Finalizar su compra precione el numero 0, si desea seguir comprando precione el numero 1"));
+let btn_agregar = document.querySelectorAll(".btn_agregar");
+
+for(let boton of btn_agregar){
+    boton.addEventListener("click", agregar_a_carrito)
 }
-console.log("Total a pagar:", total_pagar);
-console.log("Gracias Por su Compra");

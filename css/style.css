@@ -1,0 +1,53 @@
+@charset "UTF-8";
+:root {
+  
+  /* Tipografía */
+  --tipo-principal: 'Montserrat', sans-serif;
+  --tipo-secundaria: 'Lora', serif;
+  --tipo-terciaria: 'Hind Madurai', sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-principal);
+  color: black;
+
+ }
+/* CODIGO */
+
+header h1{
+    font-family: var(--tipo-principal);
+    text-align: center;
+    padding-top: .2em ;
+}
+header nav{
+        font-family: var(--tipo-secundaria);
+        
+        
+}
+header ul{}
+header li{}
+header  .a{
+    font-size: 1.2em;    
+}
+.carousel-inner,
+.carousel-item{
+    height: 87vh;   
+}
+.carousel-caption .h5{
+    font-size: 2.5em;
+  
+}
+.carousel-caption a{
+    font-size: 1.5em;  
+}
+section .h2{
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--tipo-secundaria);
+    margin: 1em 0;
+       
+}
+
