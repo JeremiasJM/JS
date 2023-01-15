@@ -11,30 +11,43 @@
 body {
   min-height: 100vh;
   font-size: 100%;
-  font-family: var(--tipo-principal);
+  font-family: var(--tipo-terciaria);
   color: black;
 
  }
 /* CODIGO */
+header a{
+    font-family: var(--tipo-secundaria);
+    font-size: 1.5em;
+    color: black;
 
-header h1{
-    font-family: var(--tipo-principal);
-    text-align: center;
-    padding-top: .2em ;
+    width: 55%;
+
+    text-decoration: none;   
+    padding-left: 1em;
+    margin-bottom: 0;
 }
+
 header nav{
-        font-family: var(--tipo-secundaria);
-        
-        
+                
 }
-header ul{}
-header li{}
+
 header  .a{
-    font-size: 1.2em;    
+    font-size: 1.2em;   
+    font-family: var(--tipo-principal);            
+}
+header .dropdown-item{
+    font-size: .9em;
+    font-family: var(--tipo-principal);  
+     
+}
+header button a{
+    font-size: 1em;
+    font-family: var(--tipo-principal);      
 }
 .carousel-inner,
 .carousel-item{
-    height: 87vh;   
+    height: 100vh;   
 }
 .carousel-caption .h5{
     font-size: 2.5em;
@@ -51,3 +64,35 @@ section .h2{
        
 }
 
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: .9em;
+
+}
+footer a:hover{
+    text-decoration:underline;
+}
+footer p{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+/* PAGE LOGIN */
+.login main{
+    height: 100vh;
+}
+.login main h1{
+    text-align: center;
+    
+}
+.login form a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.479);
+    font-size: .8em;
+    padding: .5em;
+}
+.login form a:hover{
+    text-decoration:underline;
+}
