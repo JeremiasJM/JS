@@ -3,7 +3,7 @@
             "id": 1,
             "title": "Buzo",
             "price": 7500,
-            "image": "https://pixabay.com/images/id-7314495" ,
+            "image": "./multimedia/img/buzo.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
