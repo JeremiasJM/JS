@@ -1,6 +1,10 @@
+.navbar{
+    background: rgb(131,130,127);
+    background: linear-gradient(90deg, rgba(131,130,127,1) 0%, rgba(234,240,239,1) 49%, rgba(131,130,127,1) 100%);
+}
 .carousel-inner,
 .carousel-item{
-    height: 100vh;   
+    height: 40vh;   
 }
 .carousel-caption .h5{
     font-size: 2.5em;
@@ -21,4 +25,12 @@ section .h2{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 2em;
+}
+.numero{
+    margin-left: .5em;
+    padding-top: .1em;
+}
+.producto img{
+    width: 250px;
+    height: 35vh;
 }

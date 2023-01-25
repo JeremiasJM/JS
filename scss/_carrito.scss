@@ -1,7 +1,18 @@
+:root {
+  
+    /* Tipografía */
+    --tipo-principal: 'Montserrat', sans-serif;
+    --tipo-secundaria: 'Lora', serif;
+    --tipo-terciaria: 'Hind Madurai', sans-serif;
+  }
+.alto{
+    height: 67.5vh;
+}
 .maincarrito {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     margin-top: 8em;
+    margin-bottom: 9em;
 }
 .contenedor-carrito {
     display: flex;
@@ -9,10 +20,7 @@
     gap: 1.5rem;
 }
 
-.carrito-vacio,
-.carrito-comprado {
-    color: var(--clr-main);
-}
+
 
 .carrito-productos {
     display: flex;
@@ -24,8 +32,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--clr-gray);
-    color: var(--clr-main);
+    
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
@@ -50,14 +57,16 @@
 .carrito-acciones {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2em;
 }
 
 .carrito-acciones-vaciar {
     border: 0;
-    background-color: var(--clr-gray);
+    
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--clr-main);
+    
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -68,7 +77,9 @@
 
 .carrito-acciones-total {
     display: flex;
-    background-color: var(--clr-gray);
+    justify-content: center;
+    align-items: center;
+    
     padding: 1rem;
     color: var(--clr-main);
     text-transform: uppercase;
@@ -76,12 +87,16 @@
     border-bottom-left-radius: 1rem;
     gap: 1rem;
 }
-
+.carrito-acciones-total p{
+    font-size: 1.2em;
+    padding-top: .9em;
+    font-family: var(--tipo-secundaria);
+}
 .carrito-acciones-comprar {
     border: 0;
-    background-color: var(--clr-main);
-    padding: 1rem;
-    color: var(--clr-white);
+   
+    padding: 0;
+    
     text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 1rem;
@@ -89,4 +104,15 @@
 }
 .disabled {
     display: none;
+}
+.maincarrito{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+             height: auto;
+}
+.carrito-productos{
+    border: 1px solid black;
+    border-radius: 1%;
 }
