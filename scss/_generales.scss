@@ -1,0 +1,70 @@
+@charset "UTF-8";
+:root {
+    --clr-main: #4b33a8;
+    --clr-main-light: #785ce9;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-red: #961818;
+    
+  /* Tipografía */
+  --tipo-principal: 'Montserrat', sans-serif;
+  --tipo-secundaria: 'Lora', serif;
+  --tipo-terciaria: 'Hind Madurai', sans-serif;
+}
+
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--tipo-terciaria);
+  color: black;
+
+ }
+/* CODIGO */
+header a{
+    font-family: var(--tipo-secundaria);
+    font-size: 1.5em;
+    color: black;
+
+    width: 55%;
+
+    text-decoration: none;   
+    padding-left: 1em;
+    margin-bottom: 0;
+}
+
+header nav{               
+}
+
+header  .a{
+    font-size: 1.2em;   
+    font-family: var(--tipo-principal);            
+}
+header .dropdown-item{
+    font-size: .9em;
+    font-family: var(--tipo-principal);  
+     
+}
+header button a{
+    font-size: 1em;
+    font-family: var(--tipo-principal);      
+}
+
+/* footer */
+footer{
+    background: lightgray;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: .9em;
+    
+
+}
+footer a:hover{
+    text-decoration:underline;
+}
+footer p{
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.555);
+}

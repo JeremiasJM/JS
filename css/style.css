@@ -28,8 +28,7 @@ header a{
     margin-bottom: 0;
 }
 
-header nav{
-                
+header nav{               
 }
 
 header  .a{
@@ -96,3 +95,5 @@ footer p{
 .login form a:hover{
     text-decoration:underline;
 }
+
+/* PAGE */

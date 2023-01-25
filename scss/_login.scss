@@ -1,0 +1,17 @@
+.login main{
+    height: 100vh;
+}
+.login main h1{
+    text-align: center;
+    
+}
+.login form a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.479);
+    font-size: .8em;
+    padding: .5em;
+}
+.login form a:hover{
+    text-decoration:underline;
+}
