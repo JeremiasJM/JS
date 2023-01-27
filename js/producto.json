@@ -13,7 +13,7 @@
             "id": 2,
             "title": "Jean Style",
             "price": 6500,
-            "image": "../multimedia/img/2.jpg",
+            "image": "./multimedia/img/2.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
