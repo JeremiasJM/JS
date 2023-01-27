@@ -23,7 +23,7 @@
             "id": 3,
             "title": "Tapado",
             "price": 15000,
-            "image": "../multimedia/img/3.jpg",
+            "image": "./multimedia/img/3.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -33,7 +33,7 @@
             "id": 4,
             "title": "Jean Basico",
             "price": 4000,
-            "image": "../multimedia/img/4.jpg",
+            "image": "./multimedia/img/4.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -43,7 +43,7 @@
             "id": 5,
             "title": "Bikini",
             "price": 6500,
-            "image": "../multimedia/img/5.jpg",
+            "image": "./multimedia/img/5.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -54,7 +54,7 @@
             "id": 6,
             "title": "Remera Basica",
             "price": 4500,
-            "image": "../multimedia/img/6.jpg",
+            "image": "./multimedia/img/6.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -65,7 +65,7 @@
             "id": 7,
             "title": "Camisa Leñadora",
             "price": 5500,
-            "image": "../multimedia/img/7.jpg",
+            "image": "./multimedia/img/7.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -75,7 +75,7 @@
             "id": 8,
             "title": "Remera + Jean",
             "price": 10500,
-            "image":"../multimedia/img/8.jpg",
+            "image":"./multimedia/img/8.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
@@ -85,7 +85,7 @@
             "id": 9,
             "title": "Conjunto 1    ",
             "price": 10000,
-            "image": "../multimedia/img/9.jpg",
+            "image": "./multimedia/img/9.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -95,7 +95,7 @@
             "id": 10,
             "title": "Conjunto 2",
             "price": 12000,
-            "image": "../multimedia/img/10.jpg",
+            "image": "./multimedia/img/10.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -105,7 +105,7 @@
             "id": 11,
             "title": "Conjunto 3",
             "price": 9000,
-            "image": "../multimedia/img/11.jpg",
+            "image": "./multimedia/img/11.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -115,7 +115,7 @@
             "id": 12,
             "title": "Conjunto 4",
             "price": 11000,
-            "image": "../multimedia/img/12.jpg",
+            "image": "./multimedia/img/12.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -125,7 +125,7 @@
             "id": 13,
             "title": "Conjunto 5",
             "price": 15000,
-            "image": "../multimedia/img/13.jpg",
+            "image": "./multimedia/img/13.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -135,7 +135,7 @@
             "id": 14,
             "title": "Conjunto 6",
             "price": 14000,
-            "image": "../multimedia/img/14.jpg",
+            "image": "./multimedia/img/14.jpg",
             "category": {
                 "nombre": "hombre",
                 "id": "hombre"
@@ -145,7 +145,7 @@
             "id": 15,
             "title": "Conjunto 1    ",
             "price": 10000,
-            "image": "../multimedia/img/15.jpg",
+            "image": "./multimedia/img/15.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -155,7 +155,7 @@
             "id": 16,
             "title": "Conjunto 2",
             "price": 5000,
-            "image": "../multimedia/img/16.jpg",
+            "image": "./multimedia/img/16.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -165,7 +165,7 @@
             "id": 17,
             "title": "Conjunto 3",
             "price": 8000,
-            "image": "../multimedia/img/17.jpg",
+            "image": "./multimedia/img/17.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -176,7 +176,7 @@
             "id": 18,
             "title": "Conjunto 4",
             "price": 12000,
-            "image": "../multimedia/img/18.jpg",
+            "image": "./multimedia/img/18.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -187,7 +187,7 @@
             "id": 19,
             "title": "Conjunto 5",
             "price": 11000,
-            "image": "../multimedia/img/19.jpg",
+            "image": "./multimedia/img/19.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -197,7 +197,7 @@
             "id": 20,
             "title": "Conjunto 6",
             "price": 15000,
-            "image": "../multimedia/img/4.jpg",
+            "image": "./multimedia/img/4.jpg",
             "category": {
                 "nombre": "Mujeres",
                 "id": "mujeres"
@@ -207,7 +207,7 @@
             "id": 21,
             "title": "Conjunto 1    ",
             "price": 8000,
-            "image": "../multimedia/img/21.jpg",
+            "image": "./multimedia/img/21.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -217,7 +217,7 @@
             "id": 22,
             "title": "Conjunto 2",
             "price": 11000,
-            "image": "../multimedia/img/22.jpg",
+            "image": "./multimedia/img/22.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -227,7 +227,7 @@
             "id": 23,
             "title": "Conjunto 3",
             "price": 15000,
-            "image": "../multimedia/img/23.jpg",
+            "image": "./multimedia/img/23.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -237,7 +237,7 @@
             "id": 24,
             "title": "Conjunto 4",
             "price": 10000,
-            "image": "../multimedia/img/24.jpg",
+            "image": "./multimedia/img/24.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -247,7 +247,7 @@
             "id": 25,
             "title": "Conjunto 5",
             "price": 13000,
-            "image": "../multimedia/img/25.jpg",
+            "image": "./multimedia/img/25.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -257,7 +257,7 @@
             "id": 26,
             "title": "Conjunto 6",
             "price": 11000,
-            "image": "../multimedia/img/8.jpg",
+            "image": "./multimedia/img/8.jpg",
             "category": {
                 "nombre": "Niños",
                 "id": "kids"
@@ -267,7 +267,7 @@
             "id": 27,
             "title": "Anillo",
             "price": 15000,
-            "image": "../multimedia/img/27.jpg",
+            "image": "./multimedia/img/27.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -277,7 +277,7 @@
             "id": 28,
             "title": "Anillo",
             "price": 22000,
-            "image": "../multimedia/img/28.jpg",
+            "image": "./multimedia/img/28.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -287,7 +287,7 @@
             "id": 29,
             "title": "Anillo",
             "price": 18000,
-            "image": "../multimedia/img/29.jpg",
+            "image": "./multimedia/img/29.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -297,7 +297,7 @@
             "id": 30,
             "title": "Anillo",
             "price": 10000,
-            "image": "../multimedia/img/30.jpg",
+            "image": "./multimedia/img/30.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -307,7 +307,7 @@
             "id": 31,
             "title": "Collar",
             "price": 10000,
-            "image": "../multimedia/img/31.jpg",
+            "image": "./multimedia/img/31.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -317,7 +317,7 @@
             "id": 32,
             "title": "Collar",
             "price": 12000,
-            "image": "../multimedia/img/32.jpg",
+            "image": "./multimedia/img/32.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -327,7 +327,7 @@
             "id": 33,
             "title": "Collar",
             "price": 12000,
-            "image": "../multimedia/img/33.jpg",
+            "image": "./multimedia/img/33.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -337,7 +337,7 @@
             "id": 34,
             "title": "Collar",
             "price": 9000,
-            "image": "../multimedia/img/34.jpg",
+            "image": "./multimedia/img/34.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -347,7 +347,7 @@
             "id": 35,
             "title": "Reloj",
             "price": 10000,
-            "image": "../multimedia/img/35.jpg",
+            "image": "./multimedia/img/35.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -357,7 +357,7 @@
             "id": 36,
             "title": "Reloj",
             "price": 12000,
-            "image": "../multimedia/img/36.jpg",
+            "image": "./multimedia/img/36.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -367,7 +367,7 @@
             "id": 37,
             "title": "Reloj",
             "price": 12000,
-            "image": "../multimedia/img/37.jpg",
+            "image": "./multimedia/img/37.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -377,7 +377,7 @@
             "id": 38,
             "title": "Reloj",
             "price": 9000,
-            "image": "../multimedia/img/38.jpg",
+            "image": "./multimedia/img/38.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -387,7 +387,7 @@
             "id": 39,
             "title": "Pulsera",
             "price": 15000,
-            "image": "../multimedia/img/39.jpg",
+            "image": "./multimedia/img/39.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -397,7 +397,7 @@
             "id": 40,
             "title": "Pulsera",
             "price": 12000,
-            "image": "../multimedia/img/40.jpg",
+            "image": "./multimedia/img/40.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -407,7 +407,7 @@
             "id": 41,
             "title": "Pulsera",
             "price": 25000,
-            "image": "../multimedia/img/41.jpg",
+            "image": "./multimedia/img/41.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
@@ -417,7 +417,7 @@
             "id": 42,
             "title": "Pulsera",
             "price": 17000,
-            "image": "../multimedia/img/42.jpg",
+            "image": "./multimedia/img/42.jpg",
             "category": {
                 "nombre": "Accesorios",
                 "id": "accesorios"
