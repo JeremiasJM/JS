@@ -3,7 +3,7 @@
             "id": 1,
             "title": "Buzo",
             "price": 7500,
-            "image": "../multimedia/img/1.jpg",
+            "image": "./multimedia/img/1.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
