@@ -3,7 +3,7 @@
             "id": 1,
             "title": "Buzo",
             "price": 7500,
-            "image": "./multimedia/img/1.jpg",
+            "image": "https://i.ibb.co/Bzz9343/buzo.jpg",
             "category": {
                 "nombre": "oferta",
                 "id": "oferta"
